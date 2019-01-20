@@ -51,4 +51,6 @@ x = x--; // same as x = x - 1
 x++ // same as x = x + 1 
 x-- // same as x = x - 1
 
+// off the record
 
+var fName = prompt("First name ?");
