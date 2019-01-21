@@ -27,7 +27,7 @@ console.log(typeof aftabAge);
 console.log(typeof firstName);
 console.log(typeof isShafiqueOler);
 
-*/
+
 
 // oratin precidence 
 // refer the table 
@@ -54,3 +54,22 @@ x-- // same as x = x - 1
 // off the record
 
 var fName = prompt("First name ?");
+*/
+// coding challenge #01
+
+var MarkHeight, MarkMass, JohnHeight, JhonMass;
+
+MarkHeight = 1.68;
+MarkMass = 55;
+
+JohnHeight = 1.78;
+JohnMass = 47;
+
+var MarkBMI = MarkMass / (MarkHeight * MarkHeight);
+var JohnBMI = JohnMass / (JohnHeight * JohnHeight);
+
+console.log("Mark's BMI is  " + MarkBMI, "John's BMI is " + JohnBMI);
+
+var MarkHigherBMI = MarkBMI > JohnBMI;
+
+console.log("Is Mark's BMI higher then John's ?" + " " + MarkHigherBMI);
